@@ -48,13 +48,13 @@ Feature:
       | 10009  | this is my Test name | tesemail.com | this is my test body |
 
 #/// Tasks
-  Scenario Outline: 5. Test that existing Users can be retrieved with a GET request
-    Given service is up and running
-    When i search for User with "<id>" with a GET method
-    Then i should see the correct "<id>", "<name>", "<username>" and "<email>" are returned with status code of 200
-    Examples:
-      | id | name             | username | email              |
-      | 3  | Clementine Bauch | Samantha | Nathan@yesenia.net |
+#  Scenario Outline: 5. Test that existing Users can be retrieved with a GET request
+#    Given service is up and running
+#    When i search for User with "<id>" with a GET method
+#    Then i should see the correct "<id>", "<name>", "<username>" and "<email>" are returned with status code of 200
+#    Examples:
+#      | id | name             | username | email              |
+#      | 3  | Clementine Bauch | Samantha | Nathan@yesenia.net |
 
 
     #//Scenario 6  create “POST”  Http method for creating a social networking User
